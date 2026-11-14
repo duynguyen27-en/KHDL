@@ -1,0 +1,6 @@
+MON :LAP TRINH CO SO
+so buoi quy dinh :15
+so buoi vang :2
+so buoi den lop :13
+diem chuyen can :8
+ket qua : DUOC DU THI

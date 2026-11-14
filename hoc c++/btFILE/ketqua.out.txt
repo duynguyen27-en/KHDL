@@ -1,0 +1,14 @@
+yeu cau 2 :
+so luong phan tu la :4
+mang so nguyen to la :5 2 7 3 
+yeu cau 3 :
+so luong phan tu la :5
+mang tang dan la :1 2 3 5 7 
+yeu cau 4 :
+so luong phan tu la :4
+mang toan so nguyen to la :5 2 7 3 
+yeu cau 5
+so luong phan tu cuc dai la :2
+mang so cuc dai la : 5 7 
+so luong phan tu cuc tieu la :1
+mang cuc tieu la :2 

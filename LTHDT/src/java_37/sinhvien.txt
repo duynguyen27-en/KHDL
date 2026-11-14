@@ -1,0 +1,5 @@
+d001,nguyen duy Nguyen,27,12,2007,8.5,KHDL,KHMT
+d002,nguyen duy tay,27,12,2007,8.0,CNTT,KHMT
+d003,ho si phan khoi,2,5,2004,7.5,TDH,KCK
+d004,bo cu to,8,9,2009,4.5,12A4,THPT
+d005,nguyen thi hai au,27,12,2007,8.0,12A4,THPT

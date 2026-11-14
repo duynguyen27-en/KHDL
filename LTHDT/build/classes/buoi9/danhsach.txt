@@ -1,0 +1,5 @@
+KHMT,SV001,Chi Pheo,CNTT,true,6.5,500.0
+KHMT,SV002,Thi No,An Toan Thong Tin,false,4.0,320.0
+NN,SV003,Bao Cong,Ngon Ngu Anh,true,7.0,8.5
+NN,SV004,Trien Chieu,Ngon Ngu Trung,true,5.0,4.5
+KHMT,SV005,Ly Nuong Nuong,Khoa Hoc May Tinh,false,8.0,600.0

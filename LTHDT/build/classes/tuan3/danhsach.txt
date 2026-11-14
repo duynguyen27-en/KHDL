@@ -1,0 +1,4 @@
+sv,P001,Bao Cong,2005,8.5
+gv,T001,Trien Chieu,1985,15000000
+sv,P002,Vuong Trieu,2006,7.2
+gv,T002,Ma Han,1990,12000000

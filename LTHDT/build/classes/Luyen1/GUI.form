@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" min="-2" pref="153" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" pref="141" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jlbma" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jtfma" min="-2" pref="103" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jlbhoten" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jtfhoten" min="-2" pref="103" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jlbngaysinh" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jtfngaysin1" min="-2" pref="103" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jlbanh" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jtfanh1" min="-2" pref="103" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jlbtoan" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jtftoan" min="-2" pref="103" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jlbtinhthanh" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jtftinhthanhh" min="-2" pref="103" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                      <Component id="jrba01" min="-2" pref="98" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jlbtentruong" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jtftentruong" min="-2" pref="103" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                      <Component id="jlbly" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jtfly" min="-2" pref="103" max="-2" attributes="0"/>
+                                      <EmptySpace pref="21" max="32767" attributes="0"/>
+                                      <Component id="jlbvan" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jtfvan" min="-2" pref="103" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jbtdocfile" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbgt1" min="-2" pref="90" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jrbnam" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jrbnu" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="jbtthem" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                                      <Component id="jbtthukhoa" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="jbtsapxep" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jrbdo1" min="-2" pref="98" max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="791" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="271" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbma" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtfma" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbtinhthanh" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtftinhthanhh" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jrba01" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jrbdo1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbhoten" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtfhoten" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbtentruong" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtftentruong" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbly" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtfly" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtfvan" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbvan" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbngaysinh" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtfngaysin1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbtoan" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtftoan" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbgt1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbanh" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtfanh1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jrbnam" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jrbnu" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jbtdocfile" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbtthem" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbtthukhoa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbtsapxep" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="39" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Danh S&#xe1;ch Tuy&#x1ec3;n Sinh"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jtbhienthi">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Th&#xf4;ng Tin"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbma">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe3; "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfma">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbhoten">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="H&#x1ecd; T&#xea;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfhoten">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbngaysinh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ngay Sinh"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbtinhthanh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#x1ec9;nh Th&#xe0;nh"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfngaysin1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbgt1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gi&#x1edb;i T&#xed;nh"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtftinhthanhh">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbtentruong">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#xea;n Tr&#x1b0;&#x1edd;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtftoan">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbtoan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="To&#xe1;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtftentruong">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbanh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anh"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfly">
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jrbdo1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="D01"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbdo1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jrba01">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A01"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrba01ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbly">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xfd;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfanh1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfvan">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbvan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="V&#x103;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtdocfile">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x110;&#x1ecd;c File"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtdocfileActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtthem">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Th&#xea;m"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtthemActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jrbnam">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nam"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jrbnu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#x1eef;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtthukhoa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Th&#x1ee7; Khoa"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtthukhoaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtsapxep">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S&#x1eaf;p X&#x1ebf;p"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtsapxepActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

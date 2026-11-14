@@ -1,0 +1,6 @@
+SGK,Toan 12,NXB Giao Duc,10,05,2026,Nguyen Van A,200,50000,10,12
+TT,Sherlock Holmes,NXB Tre,20,01,2026,Conan Doyle,300,100000,5,Hinh su
+SGK,Van 12,NXB Giao Duc,15,03,2026,Pham Thi B,250,40000,20,12
+TT,Harry Potter,NXB Tre,10,11,2026,JK Rowling,400,150000,3,Gia tuong
+SGK,Vat Ly 12,NXB Giao Duc,05,07,2026,Do Van C,300,45000,15,12
+TT,Dac Nhan Tam,NXB Tre,22,02,2026,Dale Carnegie,280,120000,8,Ky nang

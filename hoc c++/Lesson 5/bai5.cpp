@@ -1,0 +1,19 @@
+#include <stdio.h>
+int factorial(int n)
+{
+    int result = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        result *= i;
+    }
+    return result;
+}
+
+int main()
+{
+    int n;
+    printf("nhap vao so nguyen duong n :");
+    scanf("%d", &n);
+    printf("giai thua cua n la :%d", factorial(n));
+    return 0;
+}

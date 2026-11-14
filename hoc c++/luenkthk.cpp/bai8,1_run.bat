@@ -1,0 +1,8 @@
+@echo off
+set start_time=%time%
+"d:\hoc c++\luenkthk.cpp\bai8,1.exe"
+set end_time=%time%
+echo.
+echo Nhan phim bat ki de thoat...
+pause > nul
+exit

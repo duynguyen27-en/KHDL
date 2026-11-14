@@ -1,0 +1,7 @@
+sv001,bao cong        ,true,8.9,7.6,7.0
+sv002,cong ton sach   ,true,8.6,9.0,4.2
+sv003,hoang thuong    ,true,5.6,2.0,8.0
+sv004,ly nuong nuong,false,2.6,7.5,4.9
+sv005,trien chieu     ,true,6.6,7.0,8.0
+sv006,hoang hau       ,false,7.4,8.9,2.9
+sv007,vuong trieu     ,true,8.6,7.5,6.5

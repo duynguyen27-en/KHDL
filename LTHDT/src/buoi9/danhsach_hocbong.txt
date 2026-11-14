@@ -1,0 +1,4 @@
+========danh sach sv dau tot nghiep========
+SV001,Chi Pheo,CNTT,true,6.5,500.0
+SV003,Bao Cong,Ngon Ngu Anh,true,7.0,8.5
+SV005,Ly Nuong Nuong,Khoa Hoc May Tinh,false,8.0,600.0
