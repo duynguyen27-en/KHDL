@@ -370,6 +370,7 @@ print(tinh_tong_tien(30, 80, 150, 200, 40, muc_gia_toi_thieu=100))
 print(tinh_tong_tien(20, 60, 90, 110, 40))
 """
 # bài 3
+"""
 def lam_phang_ds(ds):
     for i in ds:
         if isinstance(i,list):
@@ -390,8 +391,63 @@ for so in get:
     print(kq,end=" ")
 
 
-
-
-
 du_lieu_goc = [1, [2, [3, 4], 5], 6, [7, 8]]
+"""
+# bài 4
+"""
+
+def giai_ma_kho_bau(ds):
+    for i in ds:
+        if isinstance(i,list) :
+            yield from giai_ma_kho_bau(i)
+        else:
+            yield i
+
+def tao_bo_cong_diem(diem_thuong_them):
+    return lambda x:x+diem_thuong_them
+
+diem_thuong=tao_bo_cong_diem(10)
+kho_bau_goc = [5, [10, [15, 20], 25], 30, [35, 40]]
+print("Giải mã kho bau long nhau :")
+for so in giai_ma_kho_bau(kho_bau_goc):
+    kq=diem_thuong(so)
+    print(kq,end=" ")
+"""
+# bài 5 ==> bài tôi chưa làm được
+"""
+def sinh_nhiet_do_vo_ham(base,step):
+    nd=base
+    while True:
+        yield nd
+        step+=nd
+
+def gioi_ham_va_loc(max_mau,nguong_canh_bao):
+    def ds_1(ds):
+        def ds_2(*k,**d):
+            gen=ds(*k,**d)
+            dem=0
+            ket_qua_loc=[]
+
+            for nhiet_do in gen:
+                if dem>=max_mau:
+                    break
+                dem+=1
+                if nhiet_do>=nguong_canh_bao:
+                    ket_qua_loc.append(nhiet_do)
+                    print(f"[CẢNH BÁO] Mẫu thứ {dem}: Nhiệt độ {nhiet_do}°C vượt ngưỡng!")
+                else:
+                    print(f"[BÌNH THƯỜNG] Mẫu thứ {dem}: Nhiệt độ {nhiet_do}°C")
+            return ket_qua_loc
+        return ds_2
+    return ds_1
+
+@gioi_ham_va_loc(max_mau=8,nguong_canh_bao=35)
+def lay_du_lieu_goc(base,step):
+    return sinh_nhiet_do_vo_ham(base,step)
+
+
+danh_sach_canh_bao = lay_du_lieu_goc(20, 5)
+print("\nDanh sách các mức nhiệt độ cần cảnh báo:", danh_sach_canh_bao)
+"""
+
 
