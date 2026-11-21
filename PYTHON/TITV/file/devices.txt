@@ -1,0 +1,10 @@
+R01,Router Core,UP,85
+SW01,Switch Tang 1,DOWN,0
+
+R02,Router Backup,UP,92
+INVALID_LINE
+SW02,Switch Tang 2,UP,45
+SW3,upe Tang 1,DOWN,90
+
+
+

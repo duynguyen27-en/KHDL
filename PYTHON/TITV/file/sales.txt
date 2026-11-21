@@ -1,0 +1,5 @@
+HD01 | Ban phim co | 2 | 1200000
+HD02 | Chuot khong day | 3 | 450000
+HD01 | Lot chuot | 1 | 150000
+HD03 | Tai nghe | hai | 500000
+HD02 | Ban phim co | 1 | 1200000

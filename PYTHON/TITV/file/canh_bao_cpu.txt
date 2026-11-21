@@ -1,0 +1,4 @@
+R01 - Router Core : 85
+%
+R02 - Router Backup : 92
+%

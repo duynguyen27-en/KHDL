@@ -1,0 +1,4 @@
+SV01; nguyen van a ;8.5;7.0;9.0
+SV02;TRAN THI B;6.0;Vắng;7.5
+SV03;  le van c;9.0;9.5;8.5
+SV04;pham minh d;4.0;5.0;3.5
